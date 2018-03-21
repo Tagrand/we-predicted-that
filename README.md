@@ -1,10 +1,12 @@
 ![we predicted that](docs/images/wp_blue_200.png)
 
-# We Predicted That
+<h2> We Predicted That </h2>
+<h3> Welcome to We Predicted That's machine learning excellence! </h3>
 
-Welcome to We Predicted That's machine learning excellence!
+  <a href='#introduction'>Introduction</a> |  <a href='#description'>Description</a>   |   <a href='#approach'>Approach</a> | <a href='#screenshots'>Screen Shots</a>  | <a href='#mvp'> MVP</a> |  <a href='#mvp'> Features</a> |  <a href='#tech'>Technologies </a> | <a href='#installation'>Installation </a> |  <a href='https://www.youtube.com/watch?v=TXqf9PLbCds&feature=youtu.be'> Demo video </a> | <a href='https://medium.com/@wepredictedthat'> Blog </a> 
 
-## Introduction
+
+## Introduction  <a name= "introduction"></a>
 
 This repo details We Predicted That's "final week" machine learning project from the December 2017 Makers Academy cohort.
 
@@ -16,8 +18,7 @@ Our team:
 - [Ed Goold](https://github.com/Gleoman)
 - [Dom Vernon](https://github.com/domvernon)
 
-
-## Project Description
+## Project Description <a name= "description"></a>
 
 We defined our initial project aim as:
 ```
@@ -28,8 +29,10 @@ Since we were all new to machine learning and data science, we started the proje
 
 Once we had solved the titanic challenge, we chose a main project: using a dataset of pokemon attributes and battles to predict the winner in a battle between any two Pokemon. The [dataset](https://www.kaggle.com/terminus7/pokemon-challenge) was obtained from kaggle.
 
+Have a look at the [website](https://we-predicted-pokemon.herokuapp.com) and make as many guesses until your heart is content. (Please note the cloud can be slow to load so you may need to click the lets fight button and wait a sec when you first use it, but after that it will be great.)
 
-## Approach
+
+## Approach <a name= "approach"></a>
 
 Details on the technical implementation:
 
@@ -44,8 +47,18 @@ Have a look at our [team blog](https://medium.com/@wepredictedthat) for the team
 
 
 
+## Screen shots <a name= "screenshots"></a>
 
-## MVP
+#### Pick two Pokemon and see who will win
+
+<a href='https://www.youtube.com/watch?v=TXqf9PLbCds&feature=youtu.be'> Watch a demo video </a> 
+
+ ![we predicted that](docs/images/homepage.png) 
+
+![we predicted that](docs/images/results.png)
+
+
+## MVP <a name= "mvp"></a>
 
 We defined our learning project MVP as:
 ```
@@ -58,7 +71,7 @@ Using the battle data and Pokemon attributes, predict the outcome of a battle wi
 ```
 
 
-## Features implemented
+## Features implemented  <a name= "features"></a>
 
 - A pokemon battle model which predicts the outcome of a fight between two pokemon
   - Logistic regression method used for prediction
@@ -70,7 +83,8 @@ Using the battle data and Pokemon attributes, predict the outcome of a battle wi
   - The user can select two pokemon to fight and see the predicted outcome
   - The user can see images of the pokemon, and see their stats before the battle
 
-## Technologies / plaforms used
+
+## Technologies / plaforms used  <a name= "tech"></a>
 
 - Python
 - [TensorFlow](https://www.tensorflow.org) - Machine learning library
@@ -80,7 +94,7 @@ Using the battle data and Pokemon attributes, predict the outcome of a battle wi
 - [Heroku](https://www.heroku.com/) - Platform to deploy our Django web app
 
 
-## Installation/Requirements
+## Installation/Requirements <a name= "installation"></a>
 
 - python 3.6
 
